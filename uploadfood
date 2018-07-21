@@ -1,0 +1,20 @@
+<!--page to upload food-->
+
+<html>
+	
+	<head>
+	</head>
+	
+	<body>
+		<h1> Crop Up </h1>
+		
+		<h2> List a Food Item </h2>
+		
+		<input type='file' accept="image/gif, image/jpeg, image/png" id='userimage'>		
+		<input type='button' value='upload' onclick="upload()">
+		</body>
+	
+	<script>
+		
+	</script>
+	</html>
