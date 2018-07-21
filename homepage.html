@@ -52,12 +52,22 @@ body {font-family: Arial;}
 </p>
 
 <div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Home')"> Home </button>
   <button class="tablinks" onclick="openCity(event, 'London')">Collaborative Recipes</button>
   <button class="tablinks" onclick="openCity(event, 'Paris')">Compost</button>
   <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tinder for Food!</button>
   <button class="tablinks" onclick="openCity(event, 'Tokyo')">Account Info</button>
 </div>
 
+ <div id="Home" class="tabcontent">
+  <h3>London</h3>
+  <p>
+      <center>
+          Two-Thirds of Food Wasted at Home in Three Major U.S. Cities is Edible
+      </center>
+  </p>
+</div>
+    
 <div id="London" class="tabcontent">
   <h3>London</h3>
   <p>London is the capital city of England.</p>
@@ -72,7 +82,7 @@ body {font-family: Arial;}
   <h3>Tokyo</h3>
   <p>Tokyo is the capital of Japan.</p>
 </div>
-<p> Two-Thirds of Food Wasted at Home in Three Major U.S. Cities is Edible </p>
+
 <script>
 function openCity(evt, cityName) {
     var i, tabcontent, tablinks;
